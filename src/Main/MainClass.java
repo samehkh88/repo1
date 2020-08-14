@@ -10,6 +10,8 @@ public class MainClass {
 			System.out.println("hello " + i);
 		}
 		
+		Calculater calc = new Calculater();
+		calc.Sum1(10, 20);
 		System.out.println("Done");
 	}
 
